@@ -1,0 +1,16 @@
+.header {
+  /* background-color: rgb(1, 50, 122); */
+  color: #fff;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.header button {
+  color: #fff;
+  background-color: rgb(33, 105, 214);
+  border: none;
+  padding: 10px;
+}
+
+.introduce {
+}

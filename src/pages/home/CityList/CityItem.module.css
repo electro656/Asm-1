@@ -1,0 +1,30 @@
+.city-item {
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.city-item img {
+  width: 330px;
+  border-radius: 12px;
+}
+
+.city-item h2 {
+}
+
+.img-block {
+  position: relative;
+  color: white;
+}
+
+.img-block h1 {
+  position: absolute;
+  bottom: 70px;
+  left: 25px;
+}
+
+.img-block h2 {
+  position: absolute;
+  bottom: 35px;
+  left: 25px;
+}

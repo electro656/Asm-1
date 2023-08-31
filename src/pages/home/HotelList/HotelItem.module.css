@@ -1,0 +1,27 @@
+.hotel-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-item img {
+  width: 245px;
+  height: 250px;
+}
+
+.hotel-info {
+  display: grid;
+  grid-row-gap: 12px;
+}
+
+.hotel-rating {
+  margin-top: 4px;
+}
+
+.hotel-rating span:first-child {
+  padding: 4px;
+  background-color: rgb(1, 50, 122);
+  color: #fff;
+  font-weight: bold;
+  /* border: 1px solid rgb(1, 50, 122); */
+  margin-right: 10px;
+}

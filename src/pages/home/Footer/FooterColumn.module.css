@@ -1,0 +1,16 @@
+.footer-columns {
+}
+
+.link {
+  margin-bottom: 15px;
+}
+
+.link:last-child {
+  margin-bottom: 0px;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(1, 50, 122);
+  font-weight: 500;
+}

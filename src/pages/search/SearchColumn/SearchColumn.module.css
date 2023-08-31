@@ -1,0 +1,12 @@
+.search-column {
+  display: grid;
+  background-color: orange;
+  margin: 20px 0px 0px 50px;
+  padding: 8px 10px 10px 10px;
+  width: 240px;
+  border-radius: 8px;
+}
+
+.search-form {
+  display: grid;
+}

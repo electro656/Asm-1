@@ -1,0 +1,21 @@
+.nav-items {
+  display: inline;
+  margin: 3rem 2rem 0px 0px;
+}
+
+.nav-items span {
+  margin-right: 8px;
+}
+
+.nav-items a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.item-border {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 12px;
+}

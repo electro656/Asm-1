@@ -1,0 +1,35 @@
+.nav-container {
+  display: flex;
+  /* justify-content: center; */
+  /* background-color: rgb(1, 50, 122); */
+  color: #fff;
+  /* padding: 1rem 40rem; */
+  width: auto;
+}
+
+.nav-bar {
+  display: block;
+  padding-top: 1rem;
+  font-weight: 100;
+  width: 65rem;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-bar h4 {
+  font-weight: 500;
+}
+
+.nav-bar a .nav-bar button {
+  display: inline-block;
+  margin-right: 1rem;
+  color: rgb(1, 42, 150);
+}
