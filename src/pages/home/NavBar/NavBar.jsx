@@ -38,7 +38,7 @@ export default function NavBar(props) {
             <h4>Booking Website</h4>
           </a>
 
-          <div>
+          <div className={styles["buttons-block"]}>
             <button>Register</button>
             <button>Login</button>
           </div>

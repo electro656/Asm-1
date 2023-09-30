@@ -1,0 +1,40 @@
+.detail-desc {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+.desc {
+  width: 73%;
+}
+
+.desc h2 {
+  margin-bottom: 20px;
+}
+
+.offer {
+  display: grid;
+  row-gap: 20px;
+  width: 22%;
+  padding: 25px 20px;
+  background-color: rgba(235, 243, 255, 255);
+}
+
+.offer h3 {
+  color: rgba(85, 85, 85, 255);
+}
+
+.offer span {
+  font-weight: 300;
+}
+
+.offer button {
+  height: 50px;
+  font-size: 15px;
+  background-color: rgba(0, 113, 194, 255);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+}

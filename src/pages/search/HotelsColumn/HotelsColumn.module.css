@@ -1,6 +1,97 @@
 .hotels-column {
-  border: 1px solid gray;
+  border: 1px solid white;
   border-radius: 5px;
-  width: 80%;
+  width: auto;
   margin-top: 20px;
+  font-size: 14px;
+}
+
+.hotel-item {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  /* column-gap: 20px; */
+  padding: 10px;
+}
+
+.hotel-item img {
+  width: 250px;
+  height: 228px;
+}
+
+.hotel-item h2 {
+  color: rgba(6, 113, 194, 255);
+}
+
+.hotel-info {
+  margin-left: 20px;
+  width: 380px;
+}
+
+.rate-and-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating h4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.rating span {
+  padding: 6px;
+  background-color: rgba(0, 53, 128, 255);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.pricing {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pricing h1 {
+  font-weight: 500;
+}
+
+.pricing p {
+  color: gray;
+  font-size: 13px;
+}
+
+.pricing button {
+  margin-top: 5px;
+  width: 180px;
+  height: 40px;
+  background-color: rgba(0, 113, 194, 255);
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+}
+
+.free-cancel {
+  color: rgba(8, 129, 15, 255);
+}
+
+.free-tag {
+  padding: 6px 4px;
+  width: fit-content;
+  border-radius: 6px;
+  background-color: rgba(0, 128, 9, 255);
+  color: #fff;
+}
+
+.desc {
+  font-weight: bold;
 }

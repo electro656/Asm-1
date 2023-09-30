@@ -33,3 +33,10 @@
   margin-right: 1rem;
   color: rgb(1, 42, 150);
 }
+
+.buttons-block {
+  display: flex;
+  gap: 20px;
+  height: 32px;
+  color: rgba(36, 77, 143, 255);
+}

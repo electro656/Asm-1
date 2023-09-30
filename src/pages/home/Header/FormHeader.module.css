@@ -15,9 +15,10 @@
 
 .form input {
   border: none;
+  width: 180px;
 }
 
-.form button {
+.form .search-button {
   color: #fff;
   background-color: rgb(33, 105, 214);
   border: none;
@@ -27,4 +28,14 @@
 .form span {
   color: gray;
   margin-right: 5px;
+}
+
+.calendar-modal {
+  background-color: aqua;
+}
+
+.date {
+  z-index: 1; /* set higher z-index value */
+  position: absolute; /* position must be set for z-index to work */
+  margin-top: 16px;
 }

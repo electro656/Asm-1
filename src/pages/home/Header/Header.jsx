@@ -13,7 +13,7 @@ export default function Header() {
         </span>
         <br />
         <br />
-        <button>Sign in / Register</button>
+        <button className={styles["reg-button"]}>Sign in / Register</button>
       </div>
 
       <FormHeader />
